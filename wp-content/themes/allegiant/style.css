@@ -136,6 +136,7 @@ input[type=submit] {
     -moz-transition: 0.4s all;
     -webkit-transition: 0.4s all;
     transition: 0.4s all;
+    width: 100%;
 }
 
 html body .button:hover,
@@ -203,6 +204,7 @@ LAYOUT
 .header .logo {
     float: left;
     padding-top: 0;
+    width: 400px;
 }
 
 .header .header-content {
