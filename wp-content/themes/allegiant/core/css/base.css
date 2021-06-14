@@ -1116,7 +1116,8 @@ NAVIGATION
 }
 
 .menu-mobile li a {
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: 0;
     padding: 10px;
     border-radius: 2px;
