@@ -29,18 +29,18 @@ url('../fonts/social.svg#social') format('svg'); }
 /* RECENT POSTS WIDGET */
 .ctwg-social { overflow:hidden; }
 .ctwg-social-link { display:block; float:left; margin:0 8px 8px 0; -moz-transition:0.3s all; -webkit-transition:0.3s all; transition:0.3s all; }
-.ctwg-social .ctwg-social-icon { font-family:'ctsc-icons'; display:block; width:40px; height:40px; line-height:40px; color:#fff; background:#ddd; font-size:18px; border-radius:3px; text-align:center; }
+.ctwg-social .ctwg-social-icon { font-family:'ctsc-icons'; display:block; width:40px; height:40px; line-height:40px; color:#98c31e; background:#ddd; font-size:18px; border-radius:3px; text-align:center; }
 .ctwg-social-link:hover { opacity:0.8;text-decoration:none; }
 .ctwg-social .ctwg-social-icon:hover { text-decoration:none; }
 /* Icon Colors */
 .ctwg-social-rss .ctwg-social-icon { background:#fe9900; }
-.ctwg-social-facebook .ctwg-social-icon { background:#4862a3; }
+.ctwg-social-facebook .ctwg-social-icon { background:#ffffff; }
 .ctwg-social-twitter .ctwg-social-icon { background:#00acee; }
 .ctwg-social-gplus .ctwg-social-icon { background:#dd4b39; }
 .ctwg-social-tumblr .ctwg-social-icon { background:#2c4762; }
 .ctwg-social-youtube .ctwg-social-icon { background:#dc2725; }
 .ctwg-social-pinterest .ctwg-social-icon { background:#ce2125; }
-.ctwg-social-instagram .ctwg-social-icon { background:#517FA4; }
+.ctwg-social-instagram .ctwg-social-icon { background:#ffffff; }
 .ctwg-social-dribbble .ctwg-social-icon { background:#ed6297; }
 .ctwg-social-linkedin .ctwg-social-icon { background:#1a85bc; }
 .ctwg-social-skype .ctwg-social-icon { background:#00aff0; }

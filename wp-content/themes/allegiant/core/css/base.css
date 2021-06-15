@@ -1799,6 +1799,8 @@ DESIGN ELEMENTS
 
 .column.col-last {
     margin-right: 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 .col-divide {
@@ -2056,7 +2058,7 @@ body .dark .heading,
 body .dark a:link, body .dark a:visited,
 body .dark a:hover,
 body .dark a:focus {
-    color: #fff;
+    color: #ffffff;
 }
 
 /* ADMIN EDIT LINKS */

@@ -766,12 +766,16 @@ LAYOUT
 .footer:before {
     content: ' ';
     position: absolute;
-    background: #bbb;
+    background: #98c31e;
     top: 0;
     left: 50%;
     margin-left: -50px;
     width: 100px;
     height: 1px;
+}
+
+a figure img{
+    width: 36px;
 }
 
 /* --------------------------------------------------------------

@@ -1,6 +1,6 @@
 <div class="portfolio-item dark <?php if ( has_excerpt() ) {
 	echo ' portfolio-item-has-excerpt';} ?>">
-	<a class="portfolio-item-image" href="<?php the_permalink(); ?>">
+	<!-- <a class="portfolio-item-image" href="<?php the_permalink(); ?>"> -->
 		<div class="portfolio-item-overlay primary-color-bg"></div>
 		<h3 class="portfolio-item-title">
 			<?php the_title(); ?>
