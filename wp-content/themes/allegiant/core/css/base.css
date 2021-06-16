@@ -95,6 +95,16 @@ a img {
 p, address {
     margin-bottom: 1.6em;
 }
+@media (min-width: 600px) and (max-width: 800px) {
+    p, address{
+        margin-top: -45px;
+    }
+}
+@media (max-width: 1279px) {
+    p, address{
+        margin-top: 22px;
+    }
+}
 
 span, div, p, dl, td, th, ul, ol, blockquote {
 }
@@ -1071,7 +1081,7 @@ NAVIGATION
     opacity: 0;
     font-size: 1.2em;
     position: fixed;
-    padding: 5% 70px 5% 5%;
+    padding: 25% 17px 5% 5%;
     top: 0;
     right: 100%;
     width: 100%;
@@ -1118,12 +1128,20 @@ NAVIGATION
 .menu-mobile li a {
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding: 10px;
-    border-radius: 2px;
+    margin: 15px;
+    padding: 5px 10px;
+    border: solid 1px;
+    border-radius: 15px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    background: #98c31e;
+    color: #ffffff;
+}
+
+.menu-mobile li a:hover{
+    background: #ffffff;
+    color: #98c31e;
 }
 
 /* Icon and Description */

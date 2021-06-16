@@ -200,7 +200,7 @@ if ( ! function_exists( 'cpotheme_subfooter' ) ) {
 if ( ! function_exists( 'cpotheme_footer' ) ) {
 	function cpotheme_footer() {
 		echo '<div class="footer-content">';
-		echo '&copy; ' . get_bloginfo( 'name' ) . ' ' . date( 'Y' ) . '. ' . sprintf( __( 'LO&HOME SERVICE', '.' ), esc_url( CPOTHEME_PREMIUM_URL ), esc_attr( CPOTHEME_NAME ) );
+		echo '&copy; ' . get_bloginfo( 'name' ) . ' ' . date( 'Y' ) . '. ' . sprintf( __( '' ), esc_url( CPOTHEME_PREMIUM_URL ), esc_attr( CPOTHEME_NAME ) );
 		echo '</div>';
 	}
 }
